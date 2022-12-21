@@ -4,7 +4,7 @@
 
 # Description
 
-Custom <a href="https://starship.rs/)">Starship</a> Configuration.
+Custom <a href="https://github.com/catppuccin/catppuccin">Catppuccin</a> Themed <a href="https://starship.rs/)">Starship</a> Configuration.
 
 ## Status
 
