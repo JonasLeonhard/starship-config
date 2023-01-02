@@ -76,6 +76,7 @@ format = "$symbol"
 
 [cmd_duration]
 style = "fg:#ffffff bg:flamingo"
+format = " ﮫ [$duration]($style) "
 
 [docker_context]
 style = "fg:#ffffff bg:flamingo"
