@@ -23,8 +23,8 @@ Custom <a href="https://github.com/catppuccin/catppuccin">Catppuccin</a> Themed 
 
 ## General Info
 
-plugins see startship.toml
 
+  plugins see startship.toml
 ```
 $character\
 $directory\
@@ -61,6 +61,17 @@ Starship.rs (https://starship.rs)
 ## Setup
 
 https://starship.rs/guide/#%F0%9F%9A%80-installation and copy the starship.toml in your setup.
+
+or ```
+git clone git@github.com:JonasLeonhard/starship-config.git ~/.config/starship
+``` and add 
+
+```
+export STARSHIP_CONFIG=~/.config/starship/starship.toml
+eval "$(starship init zsh)"
+```
+to your .zshrc
+
 
 ## Known Issues / Missing Features
 
