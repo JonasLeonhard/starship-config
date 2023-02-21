@@ -124,6 +124,7 @@ format = '[ $symbol]($style)'
 [nodejs]
 style = "fg:#ffffff bg:yellow"
 format = '[ $symbol]($style)'
+not_capable_style = "fg:red bg:yellow"
 
 [php]
 style = "fg:#ffffff bg:yellow"
