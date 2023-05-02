@@ -3,6 +3,8 @@ $character\
 $directory\
 [](fg:blue bg:peach)\
 $git_branch\
+$git_commit\
+$git_state\
 $git_status\
 $git_metrics\
 [](fg:peach bg:yellow)\
@@ -50,6 +52,14 @@ sky = "#89dceb"
 sapphire = "#74c7ec"
 blue = "#89b4fa"
 lavender = "#b4befe"
+
+
+[git_commit]
+style = "fg:#000000 bg:peach"
+format = '[ #$hash $tag ]($style)'
+
+[git_state]
+style = "fg:#000000 bg:peach"
 
 [git_branch]
 style = "fg:#000000 bg:peach"
