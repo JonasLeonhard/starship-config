@@ -3,8 +3,6 @@ $character\
 $directory\
 [](fg:blue bg:peach)\
 $git_branch\
-$git_commit\
-$git_state\
 $git_status\
 $git_metrics\
 [](fg:peach bg:yellow)\
@@ -28,6 +26,8 @@ $rust\
 [](fg:yellow bg:flamingo)\
 [\
 $cmd_duration\
+$git_commit\
+$git_state\
 $docker_context\
 ](fg:#ffffff bg:flamingo)\
 [ ](fg:flamingo)
@@ -55,11 +55,12 @@ lavender = "#b4befe"
 
 
 [git_commit]
-style = "fg:#000000 bg:peach"
-format = '[ #$hash $tag ]($style)'
+style = "fg:#ffffff bg:flamingo"
+format = '[ #$hash $tag]($style)'
 
 [git_state]
-style = "fg:#000000 bg:peach"
+style = "fg:#ffffff bg:flamingo"
+format = '[\[$state $progress_current/$progress_total\]]($style)'
 
 [git_branch]
 style = "fg:#000000 bg:peach"
@@ -67,7 +68,7 @@ format = "[ $symbol$branch(:$remote_branch)]($style)"
 
 [git_status]
 style = "fg:#000000 bg:peach"
-format = '[$all_status$ahead_behind ]($style)'
+format = '[ $all_status$ahead_behind ]($style)'
 
 [directory]
 style = "bg:blue fg:#000000"
