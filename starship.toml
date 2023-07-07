@@ -79,7 +79,7 @@ truncate_to_repo = false
 [character]
 success_symbol = "[](green)[ ](bold fg:#000000 bg:green)[](bg:blue fg:green)"
 error_symbol = "[](red)[ ](bold fg:#000000 bg:red)[](bg:blue fg:red)"
-vimcmd_symbol = "[](green)[ ](bold fg:#000000 bg:green)[](bg:blue fg:green)"
+vimcmd_symbol = "[](lavender)[ ](bold fg:#000000 bg:lavender)[](bg:blue fg:lavender)"
 format = "$symbol"
 
 [cmd_duration]
