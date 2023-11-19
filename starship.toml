@@ -119,6 +119,7 @@ style = "fg:#ffffff bg:yellow"
 format = "[ $symbol(🎯 $tfm )]($style)"
 
 [golang]
+symbol = " "
 style = "fg:#ffffff bg:yellow"
 format = '[ $symbol]($style)'
 
