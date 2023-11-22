@@ -88,7 +88,7 @@ format = " ﮫ [$duration]($style) "
 
 [docker_context]
 style = "fg:#ffffff bg:flamingo"
-format = " [$symbol$context]($style) "
+format = " [$symbol]($style) "
 
 [java]
 style = "fg:#ffffff bg:yellow"
