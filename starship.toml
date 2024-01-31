@@ -34,7 +34,7 @@ $docker_context\
 """
 # Set 'foo' as custom color palette
 palette = 'catppuccin'
-command_timeout = 1000
+command_timeout = 3000
 
 # Define custom colors
 [palettes.catppuccin]
