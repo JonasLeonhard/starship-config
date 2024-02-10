@@ -88,7 +88,7 @@ format = " ﮫ [$duration]($style) "
 
 [docker_context]
 style = "fg:#ffffff bg:flamingo"
-format = " [$symbol]($style) "
+format = "[ $symbol]($style) "
 
 [java]
 style = "fg:#ffffff bg:yellow"
@@ -98,6 +98,7 @@ style = "fg:#ffffff bg:yellow"
 
 [c]
 style = "fg:#ffffff bg:yellow"
+format = "[ $symbol]($style)"
 
 [cmake]
 style = "fg:#ffffff bg:yellow"
