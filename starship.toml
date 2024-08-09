@@ -22,6 +22,7 @@ $nodejs\
 $php\
 $python\
 $rust\
+$zig\
 ](fg: #ffffff bg:yellow)\
 [](fg:yellow bg:flamingo)\
 [\
@@ -147,5 +148,10 @@ style = "fg:#ffffff bg:yellow"
 format = '[ $symbol]($style)'
 
 [rust]
+style = "fg:#ffffff bg:yellow"
+format = '[ $symbol]($style)'
+
+[zig]
+symbol = ' '
 style = "fg:#ffffff bg:yellow"
 format = '[ $symbol]($style)'
